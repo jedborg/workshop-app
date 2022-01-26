@@ -1,0 +1,10 @@
+<ul>
+  <li
+    class="video"
+    *ngFor="let video of videos | async"
+    (click)="videoClicked(video)"
+    [class.selected]="video.id === activeVideo?.id"
+  >
+    <app-video-thubnail [video]="video"></app-video-thubnail>
+  </li>
+</ul>

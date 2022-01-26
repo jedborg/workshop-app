@@ -1,0 +1,20 @@
+ul,
+li {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.video {
+  border: 2px solid rgb(45, 137, 223);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+li.video.selected {
+  background-color: rgb(134, 37, 134);
+  border-color: rgb(134, 37, 134);
+  color: white;
+}
